@@ -72,7 +72,7 @@
     ##   Thomson, D.J. Spectrum Estimation and Harmonic Analysis,
     ##   Proceedings of the IEEE, 1982.
     ## note that the weights are squared, they are |d_k(f)|^2 from equation
-    ## (5.2)
+    ## (5.3)
 
     out <- .Fortran("mw2wta", as.double(sa),
                     wt=matrix(as.double(0), nfreq, nord),
